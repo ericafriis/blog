@@ -1,0 +1,153 @@
+/* setting margin for all pages except for blogs*/
+.section{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+/* navbar text color*/
+.nav.navbar-nav li a {
+   color: black;
+ }
+
+/* navbar hover color*/
+.nav.navbar-nav a:hover {
+ color: grey;
+}
+
+/* navbar background color*/
+.nav-text{
+    background-color: #f1f2f2;
+
+    
+}
+
+/* Footer copyright and name */
+.footer{
+    height: 20px;
+    margin-top: 20px;
+     
+}
+
+/* dividers in navbar */
+.divider {
+    position: absolute;
+    right:-1px;
+    bottom:15px;
+    color:black;
+}
+
+/*F on top of navbar */
+.f{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Blog posts  */
+.blog-post{
+    margin-left: 125px;
+    margin-right: 125px;
+    font-size: 16px;
+
+}
+
+/* The Picture that will show on Index page and will only show with most current blog post*/
+.homepage-blog-pic {
+  position: relative;
+  top: 10px;
+  left: 0;
+}
+/* */
+.firstblogpic {
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  top: 0;
+  left: 0;
+}
+/* grey block that is on top of the blog pic on index page*/
+.blogtextbox{
+  position: absolute;
+  top: 40px;
+  left: -50px;
+  height: 150px;
+  width: 150px;
+}
+
+/* Picture for about.html */
+.about-me-pic{
+    height: 450px;
+    width: 530px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+/*adjusting well top margin for meet Erica section on index.html*/ 
+.well{
+    margin-top: 10px;
+    height: 430px;
+    width: 350px;
+}
+/*picture of Erica on "Meet Erica" html page */ 
+.meet-erica{
+    height: 300px;
+    width: 300px;
+}
+
+/*Text "Meet Erica" html page */ 
+.meet-erica-title h5 {
+    font-family:'Sofia';font-size: 38px;
+    margin-left: 50px;
+
+}
+/*social icons on "Meet Erica" html page */
+.social-icons-meet-erica{
+    
+    margin:0 120px;
+
+}
+
+
+
+/* All Images for blogs listed by most current blog date */
+.jan-9-2017-Danish-Design{
+    border: transparent;
+    height: 550px;
+    width: 802px;
+    margin-left: 125px;
+    margin-right: 125px;
+
+}
+
+.jan-3-2017-blog-Design-in-scandinavia{
+    border: transparent;
+    height: 550px;
+    width: 802px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+
+.jan-1-2017-blog-italy{
+    border: transparent;
+    height: 550px;
+    width: 802px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+.jan-1-2017-blog-italy-2{
+    border: transparent;
+    height: 350px;
+    width: 302px;
+    margin-left: 0px;
+    
+}
+
+
+
+
+
+
