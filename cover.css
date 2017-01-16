@@ -39,8 +39,8 @@
 
 /*F on top of navbar */
 .f{
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -76,16 +76,48 @@
   top: 40px;
   left: -50px;
   height: 150px;
-  width: 150px;
+  width: 180px;
+}
+/* date and title inside blog text box*/
+.date-on-blogtextbox h5 {
+    font-size: 18px;
+    color: black;
+    
+    position: absolute; 
+    top: 50px; 
+    right: 40px; 
+    width: 100%;
+     
+}
+/* Change blog post links color to black*/
+a{
+    color: black;
 }
 
-/* Picture for about.html */
-.about-me-pic{
-    height: 450px;
-    width: 530px;
-    margin-left: 125px;
-    margin-right: 125px;
+.describtion-of-blog{
+    width: 600px;
+    
+    
 }
+
+/* Picture for about.html on index.html page */
+.about-me-pic {
+    height: 350px;
+    width: 350px;
+    margin-left: 300px;
+    
+}
+/* Picture for about.html on about.html page */
+.about-me{
+    margin-top: 10px;
+    height: 430px;
+    width: 750px;
+}
+
+
+    
+
+
 /*adjusting well top margin for meet Erica section on index.html*/ 
 .well{
     margin-top: 10px;
@@ -117,12 +149,23 @@
 
 
 /* All Images for blogs listed by most current blog date */
-.jan-9-2017-Danish-Design{
+.jan-15-2017-Newest-post{
     border: transparent;
     height: 550px;
     width: 802px;
     margin-left: 125px;
     margin-right: 125px;
+
+}
+
+
+
+
+.jan-9-2017-Danish-Design{
+    border: transparent;
+    height: 350px;
+    width: 402px;
+    
 
 }
 
