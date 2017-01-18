@@ -1,22 +1,73 @@
 ---
 layout: default
 ---
-
+<br>
 <div class="container">
-    <div class="section">
-        {% for post in site.posts %}
-        {{ post.date | date_to_string }}
-        <br>
-        <a href="{{post.url}}">
-        <h4><strong>{{post.title}}</a></strong><h6>By Erica Friis</h6></h4>
-        {{post.description}} 
-        <a href="{{post.url}}">Read More</a>
-        <br>
-        <br>
-        <br>
-        {% endfor %}
+    <div class="row">
+            <div class="col-md-6 col-md-offset-1">
+                <!-- Change img src in firstblogpic to change picture for newest blog post-->
+                {% for post in site.posts %}
+                <a href="{{post.url}}">
+                <img src="{{post.image}}" class="blogimg">
+                <br>
+                <br>
+                {{ post.date | date_to_string }}
+                <br>
+                <a href="{{post.url}}">
+                <div class="describtion-of-blog">
+                <h4><strong>{{post.title}}</a></strong><h6>By Erica Friis</h6></h4>
+                {{post.description}} 
+                <a href="{{post.url}}">Read More</a>
+                </div>
+                <br>
+                <br>
+                <br>
+                {% endfor %}
+            </div>
+                <div class="col-md-3 col-md-offset-1">
+                    <div class="well">
+                        <div class="meet-erica-title">        
+                            <h5>Meet Erica</h5>
+                            <a href="about.html"><img src="Redhead.jpg" class="meet-erica"></a\>
+                            <div class="social-icons-meet-erica">
+                                <a href="#" title="Follow Me On Facebook"><i class="fa fa-facebook-official" style="font-size:22px;color:#3b5998"></i></a>
+                                
+                                <a href="#" title="Follow Me On Instagram"><i class="fa fa-instagram" style="font-size:22px;color:color:#cb2027"></i></a>
+                               
+                                <a href="#" title="Follow Me On Pinterest"><i class="fa fa-pinterest" style="font-size:22px;color:#cb2027"></i></a>
+                        </div>
+                    </div>    
+                                <br>
+                                <br>
+                                <br>
+                                <!-- Pinterest Slider-->
+                                <div class="row">
+                                <div class="well">
+                                <div class="meet-erica-title">        
+                                    <h5>Pinterest Slider</h5>
+                                <a data-pin-do="embedBoard" data-pin-board-width="750" data-pin-scale-height="195" data-pin-scale-width="350" href="https://www.pinterest.com/friis73071/test-for-blog-page/"></a>
+                                </div>
+                                </div>
+                                </div>
+                                <!-- SnapWidget -->
+                                <div class="row">
+                                    <div class="well">
+                                    <div class="meet-erica-title">        
+                                    <h5>Instagram Slider</h5>
+                                    </div>
+                                    <iframe src="https://snapwidget.com/embed/318399" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:309px; height:410px"></iframe>
+                                    </div>
+                                </div>
+                </div>
+                
     </div>
-</div>    
+ </div>  
 
 
-      
+
+                 
+   
+                                
+
+                        
+

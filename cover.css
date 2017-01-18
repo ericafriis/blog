@@ -1,26 +1,34 @@
-/* setting margin for all pages except for blogs*/
-.section{
-    margin-left: 150px;
-    margin-right: 150px;
+p{
+width: 600px;
 }
 
 
 /* navbar text color*/
 .nav.navbar-nav li a {
    color: black;
- }
+   
+}
 
 /* navbar hover color*/
 .nav.navbar-nav a:hover {
  color: grey;
+
 }
 
 /* navbar background color*/
 .nav-text{
     background-color: #f1f2f2;
-
-    
 }
+
+/* images showing on top of blog posts in blog.html*/
+.blogimg{
+  height: 600px;
+  width: 600px;
+  position: relative;
+  top: 10px;
+  
+}
+
 
 /* Footer copyright and name */
 .footer{
@@ -47,6 +55,7 @@
 }
 
 
+
 /* Blog posts  */
 .blog-post{
     margin-left: 125px;
@@ -59,17 +68,12 @@
 /* The Picture that will show on Index page and will only show with most current blog post*/
 .homepage-blog-pic {
   position: relative;
-  top: 10px;
+  top: 5px;
   left: 0;
-}
-/* */
-.firstblogpic {
-  position: absolute;
   height: 600px;
   width: 600px;
-  top: 0;
-  left: 0;
 }
+
 /* grey block that is on top of the blog pic on index page*/
 .blogtextbox{
   position: absolute;
@@ -78,11 +82,10 @@
   height: 150px;
   width: 180px;
 }
-/* date and title inside blog text box*/
+/* date and title inside grey blog text box*/
 .date-on-blogtextbox h5 {
     font-size: 18px;
     color: black;
-    
     position: absolute; 
     top: 50px; 
     right: 40px; 
@@ -93,11 +96,15 @@
 a{
     color: black;
 }
-
+/* width of blog posts on index.html page*/
 .describtion-of-blog{
     width: 600px;
-    
-    
+}
+/* Pictures above blog post inside the blog.html*/
+.pic-on-blog-html-page{
+    width: 100px;
+    height: 100px;
+
 }
 
 /* Picture for about.html on index.html page */
@@ -110,14 +117,10 @@ a{
 /* Picture for about.html on about.html page */
 .about-me{
     margin-top: 10px;
-    height: 430px;
-    width: 750px;
+    height: 600px;
+    width: 600px;
 }
-
-
-    
-
-
+  
 /*adjusting well top margin for meet Erica section on index.html*/ 
 .well{
     margin-top: 10px;
@@ -136,7 +139,7 @@ a{
 /*Text "Meet Erica" html page */ 
 .meet-erica-title h5 {
     font-family:'Sofia';font-size: 33px;
-    margin-left: 50px;
+    text-align: center;
     color: black;
 
 }
@@ -165,6 +168,8 @@ a{
     border: transparent;
     height: 350px;
     width: 402px;
+    margin-left: 125px;
+    margin-right: 125px;
     
 
 }

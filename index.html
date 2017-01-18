@@ -6,9 +6,12 @@ layout: default
         <br>
             <div class="col-md-3 col-md-offset-1">
                 <!-- Change img src in firstblogpic to change picture for newest blog post-->
-                <div class="homepage-blog-pic">
-                    <img class="firstblogpic" src="/landingpage.jpg"/>
-                    
+                
+                    {% for post in site.posts limit:1 %}
+                    <a href="{{post.url}}">
+                    <img class="homepage-blog-pic" src="{{post.image}}"/>
+                    </a>
+                    {% endfor %}
                     <div class="date-on-blogtextbox">
                     <img class="blogtextbox" src="/blogtextbox.jpg"/>
                     <h5>{% for post in site.posts limit:1 %}
@@ -19,39 +22,9 @@ layout: default
                     </h5>
                     {% endfor %}
                     </div>
-                </div>    
+                    
                 <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                {% for post in site.posts limit:1 %}
+                {% for post in site.posts limit:3 %}
                 {{ post.date | date_to_string }}
                 <br>
                 <a href="{{post.url}}">
