@@ -54,7 +54,16 @@ width: 600px;
     margin-right: auto;
 }
 
+.well.layout {
+    height: auto;
+    width: 600px;
+    background-color: #f1f2f2;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 
+}
 
 /* Blog posts  */
 .blog-post{
@@ -154,50 +163,25 @@ a{
 /* All Images for blogs listed by most current blog date */
 .jan-15-2017-Newest-post{
     border: transparent;
-    height: 550px;
-    width: 802px;
-    margin-left: 125px;
-    margin-right: 125px;
+    height: 600px;
+    width: 600px;
+    position: relative;
+    top: 10px;
 
 }
-
-
 
 
 .jan-9-2017-Danish-Design{
     border: transparent;
-    height: 350px;
-    width: 402px;
-    margin-left: 125px;
-    margin-right: 125px;
+    height: 600px;
+    width: 600px;
+    position: relative;
+    top: 10px;
     
 
 }
 
-.jan-3-2017-blog-Design-in-scandinavia{
-    border: transparent;
-    height: 550px;
-    width: 802px;
-    margin-left: 125px;
-    margin-right: 125px;
-}
 
-
-.jan-1-2017-blog-italy{
-    border: transparent;
-    height: 550px;
-    width: 802px;
-    margin-left: 125px;
-    margin-right: 125px;
-}
-
-.jan-1-2017-blog-italy-2{
-    border: transparent;
-    height: 350px;
-    width: 302px;
-    margin-left: 0px;
-    
-}
 
 
 
