@@ -1,90 +1,21 @@
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="My Blog" content="">
-    <meta name="Erica Friis" content="">
-    
-    <title>Friis Found</title>
-    
-    <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-zF4BRsG/fLiTGfR9QL82DrilZxrwgY/+du4p/c7J72zZj+FLYq4zY00RylP9ZjiT" crossorigin="anonymous">
-    <style>img:hover {
-    opacity: 0.7;
-    filter: alpha(opacity=50); 
-    }</style>
-    
-
-
-    
-
-
-    <link href="cover.css" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link href='//fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
-
-    
-  </head>
-
-  <body>
-<nav class="navbar-navbar">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      
-    </div>
-
-        <div class="nav-text">
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                <li class="active"><a href="/index.html">Home <span class="divider"></span></a></li>
-                <li><a href="about.html">About</a><span class="divider"></span></li>
-                <li><a href="design.html">Design</a><span class="divider"></span></li></li>
-                <li><a href="teaching.html">Teaching</a><span class="divider"></span></li></li>
-                <li><a href="blog.html">Blog</a><span class="divider"></span></li></li>
-                <li><a href="blog.html">Crafts</a><span class="divider"></span></li></li>
-                <li><a href="contact.html">Contact</a><span class="divider"></span></li></li>
-                <li><a href="#" title="Follow Me On Facebook"><i class="fa fa-facebook-official" style="font-size:22px;color:#3b5998"></i></a></li>
-                <li><a href="#" title="Follow Me On Instagram"><i class="fa fa-instagram" style="font-size:22px;color:color:#cb2027"></i></a></li>
-                <li><a href="#" title="Follow Me On Pinterest"><i class="fa fa-pinterest" style="font-size:22px;color:#cb2027"></i></a></li>
-
-                </ul>
-                </li>
-                </ul>
-            </div>
-        </div>
-  </div>
-</nav>
+---
+layout: default
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam blandit convallis orci, non molestie lectus lacinia ut. Ut tristique ut purus sed fringilla. In ut purus erat. Nulla vel condimentum urna, eget efficitur nisl.  
+title: Danish Kitchen
+date: Jan 30 2017
+image: "/danishkitchen.jpg"
+---
 <br>
-<br>
-
-<a href="/index.html">
-<img class="f" src="f.jpg">
-</a>
-          
-
-    <p><br /></p>
 <div class="container">
     <div class="row-fluid">
         <div class="col-md-6 col-md-offset-1">
 
-        <img src="/danishkitchen.jpg" class="jan-9-2017-Danish-Design" />
-        <br />
-        <br />
+        <img src="{{page.image}}" class="jan-30-2017-Danish-kitchen">
+        <br>
+        <br>
 
-        <h3>Danish Design</h3>
-        <h6>Jan 03 2017</h6>
+        <h3>Danish Kitchen for beginners</h3>
+        <h6>Jan 30 2017</h6>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam blandit convallis orci, non molestie lectus lacinia ut. Ut tristique ut purus sed fringilla. In ut purus erat. Nulla vel condimentum urna, eget efficitur nisl. In felis dolor, feugiat vel nibh sed, tristique cursus nisi. Morbi egestas, turpis non varius bibendum, nunc libero egestas ante, sit amet ornare nibh sapien ac lectus. Donec eu maximus neque, quis finibus neque. Proin in sapien quam. Phasellus sit amet ex tempor, congue risus sit amet, suscipit tortor. Nulla egestas luctus sem.Proin vitae posuere diam. Mauris imperdiet ex odio, nec feugiat ipsum sollicitudin lacinia. Donec vitae mauris sit amet nunc condimentum venenatis non ac eros. Fusce aliquam tempor consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam blandit convallis orci, non molestie lectus lacinia ut. Ut tristique ut purus sed fringilla. In ut purus erat. Nulla vel condimentum urna, eget efficitur nisl. In felis dolor, feugiat vel nibh sed, tristique cursus nisi. Morbi egestas, turpis non varius bibendum, nunc libero egestas ante, sit amet ornare nibh sapien ac lectus. Donec eu maximus neque, quis finibus neque. Proin in sapien quam.Nulla egestas luctus sem.Proin vitae posuere diam. Mauris imperdiet ex odio, nec feugiat ipsum sollicitudin lacinia. Donec vitae mauris sit amet nunc condimentum venenatis non ac eros. Fusce aliquam tempor consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam blandit convallis orci, non molestie lectus lacinia ut. Ut tristique ut purus sed fringilla. In ut purus erat. Nulla vel condimentum urna, eget efficitur nisl. In felis dolor, feugiat vel nibh sed, tristique cursus nisi. Morbi egestas, turpis non varius bibendum, nunc libero egestas ante, sit amet ornare nibh sapien ac lectus. Donec eu maximus neque, quis finibus neque. Proin in sapien quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam blandit convallis orci, non molestie lectus lacinia ut. Ut tristique ut purus sed fringilla. In ut purus erat. Nulla vel condimentum urna, eget efficitur nisl. In felis dolor, feugiat vel nibh sed, tristique cursus nisi. Morbi egestas, turpis non varius bibendum, nunc libero egestas ante, sit amet ornare nibh sapien ac lectus. Donec eu maximus neque, quis finibus neque. Proin in sapien quam. Phasellus sit amet ex tempor, congue risus sit amet, suscipit tortor. Nulla egestas luctus sem.Proin vitae posuere diam. Mauris imperdiet ex odio, nec feugiat ipsum sollicitudin lacinia. Donec vitae mauris sit amet nunc condimentum venenatis non ac eros. Fusce aliquam tempor consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam blandit convallis orci, non molestie lectus lacinia ut. Ut tristique ut purus sed fringilla. In ut purus erat. Nulla vel condimentum urna, eget efficitur nisl. In felis dolor, feugiat vel nibh sed, tristique cursus nisi. Morbi egestas, turpis non varius bibendum, nunc libero egestas ante, sit amet ornare nibh sapien ac lectus. Donec eu maximus neque, quis finibus neque. Proin in sapien quam.Nulla egestas luctus sem.Proin vitae posuere diam. Mauris imperdiet ex odio, nec feugiat ipsum sollicitudin lacinia. Donec vitae mauris sit amet nunc condimentum venenatis non ac eros. Fusce aliquam tempor consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam blandit convallis orci, non molestie lectus lacinia ut. Ut tristique ut purus sed fringilla. In ut purus erat. Nulla vel condimentum urna, eget efficitur nisl. In felis dolor, feugiat vel nibh sed, tristique cursus nisi. Morbi egestas, turpis non varius bibendum, nunc libero egestas ante, sit amet ornare nibh sapien ac lectus. Donec eu maximus neque, quis finibus neque. Proin in sapien quam.
         </div>
 
@@ -93,7 +24,7 @@
                     <div class="well">
                         <div class="meet-erica-title">        
                             <h5>Meet Erica</h5>
-                            <a href="about.html"><img src="/Redhead.jpg" class="meet-erica" /></a>
+                            <a href="/about.html"><img src="/Redhead.jpg" class="meet-erica"></a>
                             <div class="social-icons-meet-erica">
                                 <a href="#" title="Follow Me On Facebook"><i class="fa fa-facebook-official" style="font-size:22px;color:#3b5998"></i></a>
                                 
@@ -102,9 +33,9 @@
                                 <a href="#" title="Follow Me On Pinterest"><i class="fa fa-pinterest" style="font-size:22px;color:#cb2027"></i></a>
                         </div>
                     </div>    
-                                <br />
-                                <br />
-                                <br />
+                                <br>
+                                <br>
+                                <br>
                                 <!-- Pinterest Slider-->
                                 <div class="row">
                                 <div class="well">
@@ -120,7 +51,7 @@
                                     <div class="meet-erica-title">        
                                     <h5>Instagram Slider</h5>
                                     </div>
-                                    <iframe src="https://snapwidget.com/embed/318399" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:309px; height:410px"></iframe>
+                                    <iframe src="https://snapwidget.com/embed/318399" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:309px; height:410px"></iframe>
                                     </div>
                                 </div>
                 </div>
@@ -134,23 +65,3 @@
 
 
 
-</div>
-
-
-<script
-    type="text/javascript"
-    async defer
-    src="//assets.pinterest.com/js/pinit.js"
-></script>
-
-<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
-
-
-
-
-
-
-
-
-</body>
-</html>

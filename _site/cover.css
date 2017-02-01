@@ -1,11 +1,24 @@
+h1{
+    font-family: "Brush Script MT", cursive;
+    font-size: 80px;
+    color: black;
+    margin-left: 520px;
+    
+}
+
+
 p{
 width: 600px;
 }
 
+.container{
+    word-wrap: break-word;
+}
 
 /* navbar text color*/
 .nav.navbar-nav li a {
    color: black;
+   margin-left: 50px;
    
 }
 
@@ -37,13 +50,7 @@ width: 600px;
      
 }
 
-/* dividers in navbar */
-.divider {
-    position: absolute;
-    right:-1px;
-    bottom:15px;
-    color:black;
-}
+
 
 /*F on top of navbar */
 .f{
@@ -54,21 +61,10 @@ width: 600px;
     margin-right: auto;
 }
 
-.well.layout {
-    height: auto;
-    width: 600px;
-    background-color: #f1f2f2;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
 
-}
 
 /* Blog posts  */
 .blog-post{
-    margin-left: 125px;
-    margin-right: 125px;
     font-size: 16px;
     color: black;
 
@@ -171,7 +167,7 @@ a{
 }
 
 
-.jan-9-2017-Danish-Design{
+.jan-30-2017-Danish-kitchen{
     border: transparent;
     height: 600px;
     width: 600px;
