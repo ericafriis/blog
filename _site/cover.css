@@ -43,26 +43,6 @@ width: 600px;
 }
 
 
-/* Footer copyright and name */
-.footer{
-    height: 20px;
-    margin-top: 20px;
-     
-}
-
-
-
-/*F on top of navbar */
-.f{
-    height: 120px;
-    width: 120px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-
 /* Blog posts  */
 .blog-post{
     font-size: 16px;
@@ -153,7 +133,6 @@ a{
     margin:0 120px;
 
 }
-
 
 
 /* All Images for blogs listed by most current blog date */

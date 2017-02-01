@@ -2,29 +2,31 @@
 layout: default
 ---
 <div class="container">
-    <div class="row">
+    <div class="row-fluid">
         <br>
             <div class="col-md-3 col-md-offset-1">
-                <!-- Change img src in firstblogpic to change picture for newest blog post-->
                 
-                    {% for post in site.posts limit:1 %}
-                    <a href="{{post.url}}">
-                    <img class="homepage-blog-pic" src="{{post.image}}"/>
-                    </a>
-                    {% endfor %}
-                    <div class="date-on-blogtextbox">
-                    <img class="blogtextbox" src="/blogtextbox.jpg"/>
-                    <h5>{% for post in site.posts limit:1 %}
-                    {{ post.date | date_to_string }}
-                    <hr>
-                    <a href="{{post.url}}">{{post.title}}</a>
-                    <br>
-                    </h5>
-                    {% endfor %}
-                    </div>
+                {% for post in site.posts limit:1 %}
+                <a href="{{post.url}}">
+                <img class="homepage-blog-pic" src="{{post.image}}"/>
+                
+                {% endfor %}
+                <div class="date-on-blogtextbox">
+                
+                <img class="blogtextbox" src="/blogtextbox.jpg"/>
+                
+                <h5>{% for post in site.posts limit:1 %}
+                {{ post.date | date_to_string }}
+                <hr>
+                <a href="{{post.url}}">{{post.title}}</a>
+                <br>
+                </h5>
+                </a>
+                {% endfor %}
+                </div>
                     
                 <br>
-                {% for post in site.posts limit:3 %}
+                {% for post in site.posts limit:5 %}
                 {{ post.date | date_to_string }}
                 <br>
                 <a href="{{post.url}}">
@@ -55,22 +57,23 @@ layout: default
                                 <br>
                                 <!-- Pinterest Slider-->
                                 <div class="row">
-                                <div class="well">
-                                <div class="meet-erica-title">        
-                                    <h5>Pinterest Slider</h5>
-                                <a data-pin-do="embedBoard" data-pin-board-width="750" data-pin-scale-height="195" data-pin-scale-width="350" href="https://www.pinterest.com/friis73071/test-for-blog-page/"></a>
-                                </div>
-                                </div>
+                                    <div class="well">
+                                        <div class="meet-erica-title">        
+                                        <h5>Pinterest Slider</h5>
+                                        <a data-pin-do="embedBoard" data-pin-board-width="750" data-pin-scale-height="195" data-pin-scale-width="350" href="https://www.pinterest.com/friis73071/test-for-blog-page/"></a>
+                                        </div>
+                                    </div>
                                 </div>
                                 <!-- SnapWidget -->
                                 <div class="row">
                                     <div class="well">
-                                    <div class="meet-erica-title">        
-                                    <h5>Instagram Slider</h5>
-                                    </div>
-                                    <iframe src="https://snapwidget.com/embed/318399" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:309px; height:410px"></iframe>
+                                        <div class="meet-erica-title">        
+                                        <h5>Instagram Slider</h5>
+                                        </div>
+                                        <iframe src="https://snapwidget.com/embed/318399" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:309px; height:410px"></iframe>
                                     </div>
                                 </div>
+
                 </div>
                 
     </div>
@@ -78,7 +81,7 @@ layout: default
 
 
 
-                 
+            
    
                                 
 
