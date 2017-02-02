@@ -59,23 +59,22 @@ h1{
 }
 /* date and title inside grey blog text box*/
 .date-on-blogtextbox h5 {
-    font-size: 18px;
+    font-family: "Brush Script MT", cursive;
+    font-size: 20px;
     color: black;
     position: absolute; 
     top: 50px; 
-    right: 40px; 
-    width: 90%;
-     
+    left: 5px; 
 }
+
+
+
+
 /* Change blog post links color to black*/
 a{
     color: black;
 }
 
-
-
-
-  
 /*adjusting well top margin for meet Erica section on index.html*/ 
 .well{
     margin-top: 10px;
