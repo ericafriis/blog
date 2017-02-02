@@ -80,14 +80,14 @@ a{
 .well{
     margin-top: 10px;
     margin-bottom: 10px;
-    height: 400px;
-    width: 340px;
+    height: 410px;
+    width: 330px;
     background-color: #f1f2f2;
 }
 /*picture of Erica on "Meet Erica" html page */ 
 .meet-erica{
     height: 300px;
-    width: 300px;
+    width: 290px;
 
 }
 
@@ -100,7 +100,7 @@ a{
 }
 /*social icons on "Meet Erica" html page */
 .social-icons-meet-erica{
-    margin:0 120px;
+    margin:0 112px;
 
 }
 
