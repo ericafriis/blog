@@ -1,91 +1,82 @@
 ---
 layout: default
 ---
-<div class="container">
-    <div class="row">
-        <br>
-            <div class="col-md-6 col-md-offset-1">
-                
-                {% for post in site.posts limit:1 %}
-                <a href="{{post.url}}">
-                <img class="img-responsive"  
-                src="{{post.image}}"/>
-                
-                {% endfor %}
-                <div class="date-on-blogtextbox">
-                
-                <img id="blogtextbox" src="/blogtextbox.jpg"/>
-                
-                <h5>{% for post in site.posts limit:1 %}
-                {{ post.date | date_to_string }}
-                
-                <br>
-                <a href="{{post.url}}">{{post.title}}</a>
-                <br>
-                </h5>
-                </a>
-                {% endfor %}
-                </div>
-                    
-                <br>
-                {% for post in site.posts limit:5 %}
-                {{ post.date | date_to_string }}
-                <br>
-                <a href="{{post.url}}">
-                <h4><strong>{{post.title}}</a></strong></h4>
-                <div class="describtion-of-blog">
-                {{post.description}} <a href="{{post.url}}">Read More</a>
-                </div>
-                <br>
-                <br>
-                <br>
-                {% endfor %}
+<br>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="col-md-6 col-md-offset-1">
+            {% for post in site.posts limit:1 %}
+            <a href="{{post.url}}">
+            <img class="img-responsive"  
+            src="{{post.image}}"/>
+            
+            {% endfor %}
+            <div class="date-on-blogtextbox">
+            
+            <img id="blogtextbox" src="/blogtextbox.jpg"/>
+            
+            <h5>{% for post in site.posts limit:1 %}
+            {{ post.date | date_to_string }}
+            
+            <br>
+            <a href="{{post.url}}">{{post.title}}</a>
+            <br>
+            </h5>
+            </a>
+            {% endfor %}
             </div>
-                <div class="col-md-3 col-md-offset-1">
-                    <div class="well">
-                        <div class="meet-erica-title">        
-                            <h5>Meet Erica</h5>
-                            <a href="about.html"><img src="/Redhead.jpg" class="meet-erica"></a\>
-                            <div class="social-icons-meet-erica">
-                                <a href="#" title="Follow Me On Facebook"><i class="fa fa-facebook-official" style="font-size:22px;color:#3b5998"></i></a>
-                                
-                                <a href="#" title="Follow Me On Instagram"><i class="fa fa-instagram" style="font-size:22px;color:color:#cb2027"></i></a>
-                               
-                                <a href="#" title="Follow Me On Pinterest"><i class="fa fa-pinterest" style="font-size:22px;color:#cb2027"></i></a>
-                            </div>
-                    </div> 
-     </div>   
-                                
-                                
-                    <br>
-                    <!-- Pinterest Slider-->
-                    <div class="row-fluid">
-                    <div class="col-md-3 col-md-offset-">
-                        <div class="well">
-                            <div class="meet-erica-title">        
-                            <h5>Pinterest Slider</h5>
-                            <a data-pin-do="embedBoard" data-pin-board-width="750" data-pin-scale-height="195" data-pin-scale-width="350" href="https://www.pinterest.com/friis73071/test-for-blog-page/"></a>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <br>
-                    <!-- SnapWidget -->
-                    <div class="row-fluid">
-                    <div class="col-md-3 col-md-offset-">
-                        <div class="well">
-                            <div class="meet-erica-title">        
-                            <h5>Instagram Slider</h5>
-                            </div>
-                            <iframe src="https://snapwidget.com/embed/318399" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:309px; height:410px"></iframe>
-                    </div>
-                        </div>
-                    </div>
-
-                </div>
                 
-    
- </div>  
+            <br>
+            {% for post in site.posts limit:5 %}
+            {{ post.date | date_to_string }}
+            <br>
+            <a href="{{post.url}}">
+            <h4><strong>{{post.title}}</a></strong></h4>
+            <div class="describtion-of-blog">
+            {{post.description}} <a href="{{post.url}}">Read More</a>
+            </div>
+            <br>
+            <br>
+            <br>
+            {% endfor %}
+        </div>
+        <div class="col-md-3 col-md-offset-1">
+            <div class="well">
+                <div class="meet-erica-title">        
+                    <h5>Meet Erica</h5>
+                    <a href="about.html"><img src="Redhead.jpg" class="meet-erica"></a>
+                        <div class="social-icons-meet-erica">
+                            <a href="#" title="Follow Me On Facebook"><i class="fa fa-facebook-official" style="font-size:22px;color:#3b5998"></i></a>
+                            
+                            <a href="#" title="Follow Me On Instagram"><i class="fa fa-instagram" style="font-size:22px;color:color:#cb2027"></i></a>
+                           
+                            <a href="#" title="Follow Me On Pinterest"><i class="fa fa-pinterest" style="font-size:22px;color:#cb2027"></i></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        <!-- Pinterest Slider-->
+        <div class="row-fluid">
+            <div class="col-md-3 col-md-offset-1">
+                <div class="well">
+                    <div class="meet-erica-title">        
+                    <h5>Pinterest Slider</h5>
+                    <a data-pin-do="embedBoard" data-pin-board-width="750" data-pin-scale-height="195" data-pin-scale-width="350" href="https://www.pinterest.com/friis73071/test-for-blog-page/"></a>
+                    </div>
+                </div>
+                <br>
+                <!-- SnapWidget -->
+                <div class="well">
+                    <div class="meet-erica-title">        
+                    <h5>Instagram Slider</h5>
+                    <iframe src="https://snapwidget.com/embed/318399" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:309px; height:410px"></iframe>
+                    </div>
+                </div>        
+            </div>
+        </div>
+</div>  
 
 
 
