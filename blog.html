@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-
+<br>
 <div class="container-fluid">
     <div class="row-fluid">
             <div class="col-md-6 col-md-offset-1">
                 <!-- Change img src in firstblogpic to change picture for newest blog post-->
                 {% for post in site.posts %}
                 <a href="{{post.url}}">
-                <img src="{{post.image}}" class="img-responsive" class="blogimg">
+                <img src="{{post.image}}" class="img-responsive" height="600" width="600">
                 <br>
                 <br>
                 {{ post.date | date_to_string }}

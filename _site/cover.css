@@ -49,13 +49,6 @@ h1{
 
 }
 
-/* The Picture that will show on Index page and will only show with most current blog post*/
-.homepage-blog-pic {
-  height: 520px;
-  width: 500px;
-  
-}
-
 /* grey block that is on top of the blog pic on index page*/
 #blogtextbox{
   position: absolute;
