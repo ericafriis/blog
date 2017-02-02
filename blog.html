@@ -2,13 +2,13 @@
 layout: default
 ---
 <br>
-<div class="container">
-    <div class="row">
+<div class="container-fluid">
+    <div class="row-fluid">
             <div class="col-md-6 col-md-offset-1">
                 <!-- Change img src in firstblogpic to change picture for newest blog post-->
                 {% for post in site.posts %}
                 <a href="{{post.url}}">
-                <img src="{{post.image}}" class="blogimg">
+                <img src="{{post.image}}" class="img-responsive" class="blogimg">
                 <br>
                 <br>
                 {{ post.date | date_to_string }}
@@ -41,7 +41,7 @@ layout: default
                                 <br>
                                 <br>
                                 <!-- Pinterest Slider-->
-                                <div class="row">
+                                <div class="row-fluid">
                                 <div class="well">
                                 <div class="meet-erica-title">        
                                     <h5>Pinterest Slider</h5>
@@ -50,7 +50,7 @@ layout: default
                                 </div>
                                 </div>
                                 <!-- SnapWidget -->
-                                <div class="row">
+                                <div class="row-fluid">
                                     <div class="well">
                                     <div class="meet-erica-title">        
                                     <h5>Instagram Slider</h5>

@@ -3,14 +3,14 @@ layout: default
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam blandit convallis orci, non molestie lectus lacinia ut. Ut tristique ut purus sed fringilla. In ut purus erat. Nulla vel condimentum urna, eget efficitur nisl.  
 title: Danish Kitchen
 date: Jan 30 2017
-image: "/danishkitchen.jpg"
+image: "/landingpage.jpg"
 ---
 <br>
-<div class="container">
-    <div class="row-fluid">
+<div class="container-fluid">
+    <div class="row">
         <div class="col-md-6 col-md-offset-1">
 
-        <img src="{{page.image}}" class="jan-30-2017-Danish-kitchen">
+        <img src="{{page.image}}" class="img-responsive">
         <br>
         <br>
 

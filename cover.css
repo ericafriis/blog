@@ -3,16 +3,24 @@ h1{
     font-size: 80px;
     color: black;
     margin-left: 460px;
-    
 }
 
 
-p{
-width: 600px;
-}
 
-.container{
-    word-wrap: break-word;
+
+/* navbar background color*/
+.navbar-default {
+  background-color:#f1f2f2;
+  background-image: none;
+  background-repeat: no-repeat;
+  border-color: #f1f2f2;
+
+ }
+
+/* navbar background color for cell phone*/
+.navbar-header{
+    background-color: black;
+
 }
 
 /* navbar text color*/
@@ -33,15 +41,6 @@ width: 600px;
     background-color: #f1f2f2;
 }
 
-/* images showing on top of blog posts in blog.html*/
-.blogimg{
-  height: 600px;
-  width: 600px;
-  position: relative;
-  top: 10px;
-  
-}
-
 
 /* Blog posts  */
 .blog-post{
@@ -52,18 +51,16 @@ width: 600px;
 
 /* The Picture that will show on Index page and will only show with most current blog post*/
 .homepage-blog-pic {
-  position: relative;
-  top: 5px;
-  left: 0;
-  height: 600px;
-  width: 600px;
+  height: 520px;
+  width: 500px;
+  
 }
 
 /* grey block that is on top of the blog pic on index page*/
-.blogtextbox{
+#blogtextbox{
   position: absolute;
   top: 40px;
-  left: -50px;
+  left: -40px;
   height: 150px;
   width: 180px;
 }
@@ -74,37 +71,17 @@ width: 600px;
     position: absolute; 
     top: 50px; 
     right: 40px; 
-    width: 100%;
+    width: 90%;
      
 }
 /* Change blog post links color to black*/
 a{
     color: black;
 }
-/* width of blog posts on index.html page*/
-.describtion-of-blog{
-    width: 600px;
-}
-/* Pictures above blog post inside the blog.html*/
-.pic-on-blog-html-page{
-    width: 100px;
-    height: 100px;
 
-}
 
-/* Picture for about.html on index.html page */
-.about-me-pic {
-    height: 350px;
-    width: 350px;
-    margin-left: 300px;
-    
-}
-/* Picture for about.html on about.html page */
-.about-me{
-    margin-top: 10px;
-    height: 600px;
-    width: 600px;
-}
+
+
   
 /*adjusting well top margin for meet Erica section on index.html*/ 
 .well{
@@ -135,26 +112,7 @@ a{
 }
 
 
-/* All Images for blogs listed by most current blog date */
-.jan-15-2017-Newest-post{
-    border: transparent;
-    height: 600px;
-    width: 600px;
-    position: relative;
-    top: 10px;
 
-}
-
-
-.jan-30-2017-Danish-kitchen{
-    border: transparent;
-    height: 600px;
-    width: 600px;
-    position: relative;
-    top: 10px;
-    
-
-}
 
 
 
