@@ -55,7 +55,7 @@ h1{
   top: 40px;
   left: -30px;
   height: 150px;
-  width: 180px;
+  width: 220px;
 }
 /* date and title inside grey blog text box*/
 .date-on-blogtextbox h5 {
@@ -77,7 +77,7 @@ a{
 
 /*adjusting well top margin for meet Erica section on index.html*/ 
 .well{
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 10px;
     height: 430px;
     width: 330px;
